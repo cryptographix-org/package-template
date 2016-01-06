@@ -1,3 +1,7 @@
+#package-template
+Template for new packages, preconfigured for Typescript, gulp build workflow and jasmine testing
+Download and customize, altering package.info, config.js and gulpfile.js as required.
+
 # <package-template>
 <package-template> description
 
