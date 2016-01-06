@@ -1,0 +1,27 @@
+{
+  "name": "<package-template>",
+  "version": "0.0.1",
+  "description": "<package-template> description",
+  "main": "dist/cjs/<package-template>-main.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/cryptographix/<package-template>/"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "baseURL": "."
+    },
+    "dependencies": {
+    }
+  },
+  "devDependencies": {
+    "cgfx-build-tools": "^0.1.1",
+    "gulp": "^3.9.0"
+  }
+}
